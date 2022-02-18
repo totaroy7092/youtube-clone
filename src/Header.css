@@ -1,0 +1,71 @@
+.Header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px;
+    position:sticky;
+    top:0px;
+    z-index:100;
+    background:white;
+    
+}
+/*=================this is Heaer left===============*/
+.Header__logo{
+    width: 60px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.MenuIcon:hover{
+    background:lightgray;
+    cursor:pointer;
+}
+
+/*=================this is Heaer input===============*/
+.Header__input{
+    display:flex;
+    align-items:center;
+    width:40%;
+    border:1px solid lightgray;
+}
+
+.Header__input input{
+    flex:1;
+    width:80%;
+    border:none;
+    outline:none;
+}
+
+.search__btn{
+    width:50px !important;
+    background:#fafafa;
+    border-left:1px solid lightgray;
+}
+
+
+.search__btn:hover{
+    color:lightgray;
+    cursor:pointer;
+}
+/*=================this is Heaer right===============*/
+.Header__icons{
+    display:flex;
+    align-items:center;
+    margin-right:8px;
+
+}
+
+.Header__icons:hover{
+    color:lightgray;
+    cursor:pointer;
+}
+
+.Header_profile__img{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+}
+.Header_profile__img:hover{
+    width:31px;
+    cursor:pointer;
+}
